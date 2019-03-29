@@ -1,0 +1,21 @@
+if TARGET_COLIBRI_T20
+
+config SYS_BOARD
+	default "colibri_t20"
+
+config SYS_VENDOR
+	default "toradex"
+
+config SYS_CONFIG_NAME
+	default "colibri_t20"
+
+config TRDX_CFG_BLOCK
+	default y
+
+config TRDX_HAVE_NAND
+	default y
+
+config TRDX_CFG_BLOCK_OFFSET
+	default "3145728"
+
+endif
